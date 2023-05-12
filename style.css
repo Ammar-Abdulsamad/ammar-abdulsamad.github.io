@@ -1,0 +1,684 @@
+body {
+  
+    
+    background-color:  rgb(143, 133, 79);
+    
+    font-family: 'Share Tech', sans-serif;
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    
+    background-repeat:no-repeat;
+      
+
+  }
+
+
+  main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  #block1{display: block;}
+
+  header{
+    margin-top: 0.2%;
+    padding-inline: 0%;
+    
+    
+    
+  }
+
+  #huvud{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 133, 79);
+    font-family: 'Share Tech', sans-serif;
+    width: 98.5%;
+    text-align: center;
+    padding-inline: 0%;
+    justify-items: center;
+    text-align: center;
+    margin-left:1.6% ;
+  }
+
+  #menu{
+   display:block;
+   
+   padding: 0px;
+   width: 100%;
+   justify-content: center;
+   
+   align-items: center;
+   text-align: center;
+   align-content: center;
+   margin-top: 2%;
+  
+}
+#menu ul
+   {
+    display: flex;
+   flex-direction:column;
+   justify-content: center;
+   text-align: center;
+   opacity: 0.9;
+   border-radius: 5%;
+    margin:0;
+    padding:0;
+   
+}
+#menu li
+   {float:none;
+  margin-bottom: 2%;
+  padding: 1px;
+  background-color:#333;
+  border-radius:30px
+  }
+#menu a:link{
+    text-decoration: none;
+    color:white ;
+    width:100%;
+    font-weight:bold;
+    text-align:center;
+    margin: 3%;}
+
+ #menu a:hover {
+    color: rgb(143, 133, 79);
+  }
+
+
+  #motionName{
+    margin-top: 5%;
+    margin-bottom: -2%;
+    font-family:fantasy;
+    text-decoration:wavy;
+    font-size: 50px;
+    color: rgb(143, 133, 79);
+  }
+
+  #container {
+    
+    
+    width: 100%;
+    height: 40%;
+    
+    
+}
+
+#text1,
+#text2 {
+    
+    width: 100%;
+    
+    display: block;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+   
+    
+    user-select: none;
+    opacity:1;  animation:motionSkills 3s ease-out;
+}
+
+
+  #motionSkills{
+    margin-top: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:wavy;
+    font-size: 30px;
+    opacity:1;  animation:motionSkills 3s ease-out;
+    
+    
+  }
+  @keyframes motionSkills        { 0% { width:0px; } 100% { width:100%; }  }
+  @keyframes text1{ 0% { width:0px; } 100% { width:100%; }  }
+  @keyframes text2{ 0% { width:0px; } 100% { width:100%; }  } 
+
+
+
+  #Logo{
+    width: 100%;
+    margin: 0%;
+  }
+
+  #Logo1{
+    border-style:groove;
+    border-radius:40% 5%;
+    width: 100%;
+    margin-left: 0%;
+    
+  
+  
+  }
+
+  #myImgd{
+    width:100%;
+  }
+
+  #myImg{
+    width:65%;
+    border-style:groove ;
+    border-radius: 50%;
+    
+  }
+
+  #Info{
+    margin-left: 0%;
+    width:100%;
+    
+  }
+
+  
+  
+
+  #Hedear1{
+    width: 99.9%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 2%;
+    
+    
+    align-items: center;
+    
+    border-style: none;
+    border-top:#2b2c31
+   
+  }
+
+  
+
+
+
+  p{
+    color: #ffffff;
+  }
+
+  a{
+    color: hsla(0, 0%, 100%, 0.683);
+    text-decoration: none;
+  }
+
+  section{
+   
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #211f22, #211f22, #211f22, #211f22, #211f22);
+  border-style: solid;
+  width: 99%;
+  border-radius:30px ;
+  margin:0.7%;
+  
+  }
+
+
+  #A1, #A2, #A3, #U1, #U2,#U3, #U4, #U5,#U6,#U7,#UT1, #UT2, #UT3, #UT4, #UT5,#I1,#K1, #K2, #K3, #K4, #K5, #K6, #K7, #K8, #K9,#K10, #K11,#K12,#K13, #K14, #K15,#K16, #K17,#K18,#K19, #S1, #S2, #S3,#V1,
+  #V2, #V3, #V4, #V5, #V6, #V7, #V8, #V9, #V10, #V11, #V12, #V13, #V14, #V15, #V16, #V17, #V18, #V19 {
+    display: flex;
+    flex-direction: row;
+   text-align: left;
+
+
+  }
+
+  .fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;}
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+   
+  }
+
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-google {
+    background: rgb(255, 102, 0);
+    color: #ffffff;
+  }
+
+
+
+  footer{
+    text-align: left;
+
+  }
+
+ 
+
+  #contact{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1%;
+  }
+
+  #contaktSymbol{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  #contact svg{
+    background-color: white;
+    padding: 0px;
+    font-size: 25px;
+    width:0,4%;
+    
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    color: #000000;
+  }
+
+  #contact svg:hover{
+    opacity: 0.7;
+  }
+
+  #number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+  }
+
+  #number svg{
+    color:hsla(0, 0%, 97%, 0.683);
+    
+  
+  }
+
+
+
+  
+
+  
+
+ 
+  #skills h2 {
+    font-size: 2.7em;
+    font-weight: normal;
+    padding: 10px 0 16px 0;
+    margin: 0 0 30px;
+    text-align:center;
+    color:white;
+    text-shadow: 1px 1px 5px #000, 0 0 10px #2187e7, 0 0 20px #2187e7;
+    
+    border-radius:5px;
+    border: 1px solid rgb(143, 133, 79);  
+    box-shadow: 0px 0px 50px -8px rgb(143, 133, 79);
+  }
+
+  /*
+  #skills h2.plataformas {
+    border: 1px solid #9ACD32;  
+    box-shadow: 0px 0px 50px -8px #9ACD32;
+    color: #9ACD32;
+    text-shadow: 1px 1px 5px #000, 0 0 10px #9ACD32, 0 0 20px #9ACD32;
+  }
+  
+  #skills h2.programas {
+    border: 1px solid #FF4500;  
+    box-shadow: 0px 0px 50px -8px #FF4500;
+    color: #FF4500;
+    text-shadow: 1px 1px 5px #000, 0 0 10px #FF4500, 0 0 20px #FF4500;
+  }
+   */
+
+  .containerS {
+    width: 90%;
+    padding:0%;
+    margin: 0% auto; 
+    overflow: hidden;
+    margin-bottom: auto;
+  }
+  
+  .col {
+    display: block;
+    text-align: left;
+    width: 23%;
+    margin: 0 5%;
+    position: relative;
+    float: left;
+    
+    line-height: 2em;
+    padding: 5% 0;
+  } 
+  /*.col { width:101%; }*/
+  .skill { 
+    list-style:none; 
+    padding-top:30px;
+    
+  }
+  
+  .skill li { 
+    margin-bottom:70px; 
+    background:#030303; 
+    height:8px; 
+    width: 100%;
+    border-radius:3px; 
+    border-left:1px solid #111; 
+    border-top:1px solid #111; 
+    border-right:1px solid #333; 
+    border-bottom:1px solid #333;  
+    
+  }
+  
+  .skill li em { 
+    position:relative; 
+    font-style: normal;
+    
+    text-align: center;
+    color:#dedede;
+    top:-28px;
+  }
+  
+  .blueline { 
+    height: 3px; 
+    margin: 2px 0; 
+    background: rgb(143, 133, 79); 
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgb(143, 133, 79);
+  }
+  .greenline { 
+    height: 3px; 
+    margin: 2px 0; 
+    background: rgb(143, 133, 79);  
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgb(143, 133, 79);
+  }
+  .redline { 
+    height: 3px; 
+    margin: 2px 0; 
+    background: rgb(143, 133, 79); 
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgb(143, 133, 79);
+  }
+  
+  .titulo      { opacity:1;  animation:titulo 5s ease-out;    }
+  
+  /*programacion*/
+  .html        { width:80%;  animation:html 2s ease-out;       }
+  .css         { width:70%;  animation:css 2s ease-out;        }
+  .php         { width:45%;  animation:php 2s ease-out;        }
+  .javascript  { width:45%;  animation:javascript 2s ease-out; }
+  .jquery      { width:45%;  animation:jquery 2s ease-out;     }
+  .Movicon     {width:55%;  animation:Movicon 2s ease-out;      }
+  .Pluto       {width:35%;  animation:Pluto 2s ease-out;      }
+  /*plataformas*/
+  .wordpress   { width:40%;  animation:wordpress 2s ease-out;  }
+  .prestashop  { width:30%;  animation:prestashop 2s ease-out; }
+  .joomla      { width:25%;  animation:joomla 2s ease-out;     }
+  .blogger     { width:65%;  animation:blogger 2s ease-out;    }
+  .tridion      { width:60%;  animation:tridion 2s ease-out;     }
+  
+  /*programas*/
+  .dreamweaver { width:60%;  animation:dreamweaver 2s ease-out;}
+  .illustrator { width:50%;  animation:illustrator 2s ease-out;}
+  .photoshop   { width:60%;  animation:photoshop 2s ease-out;  }
+  .premiere    { width:30%;  animation:premiere 2s ease-out;   }
+  .flash       { width:100%;  animation:flash 2s ease-out;      }
+  
+  
+  @keyframes titulo      { 0% { opacity:0; } 100% { opacity:1; }  }
+  
+  /*programacion*/
+  @keyframes html        { 0% { width:0px; } 100% { width:80%; }  }
+  @keyframes css         { 0% { width:0px; } 100% { width:70%; }  }
+  @keyframes php         { 0% { width:0px; } 100% { width:45%; }  }
+  @keyframes javascript  { 0% { width:0px; } 100% { width:45%; }  }
+  @keyframes jquery      { 0% { width:0px; } 100% { width:45%; }  }
+  @keyframes Movicon     { 0% { width:0px; } 100% { width:55%; }  }
+  @keyframes Pluto       { 0% { width:0px; } 100% { width:40%; }  }
+  
+  /*plataformas*/
+  @keyframes wordpress   { 0% { width:0px; } 100% { width:80%; }  }
+  @keyframes prestashop  { 0% { width:0px; } 100% { width:60%; }  }
+  @keyframes joomla      { 0% { width:0px; } 100% { width:40%; }  }
+  @keyframes blogger     { 0% { width:0px; } 100% { width:70%; }  }
+  @keyframes tridion      { 0% { width:0px; } 100% { width:60%; }  }
+  
+  /*programas*/
+  @keyframes dreamweaver { 0% { width:0px; } 100% { width:90%; }  }
+  @keyframes illustrator { 0% { width:0px; } 100% { width:30%; }  }
+  @keyframes photoshop   { 0% { width:0px; } 100% { width:70%; }  }
+  @keyframes premiere    { 0% { width:0px; } 100% { width:50%; }  }
+  @keyframes flash       { 0% { width:0px; } 100% { width:60%; }  }
+
+
+
+  
+  
+  /*media queries*/
+  @media screen and (max-width: 1500px){
+    #skill li em{font-size: 20px;}
+    h1{font-size: 2.6em; color: rgb(143, 133, 79)}
+    #myName {font-size: 2.6em; color: hsla(0, 0%, 0%, 0.683)}
+    h2 {font-size:1.6em; margin-left: 10px; color:#ffffff}
+    h3 {font-size:1.2em; margin-left: 10px; color:#ffffff}
+    .col {width: 90%; font-size: 14px; }
+    #GXwork{width:2%}
+    #menu a{font-size:12px}
+    #Info h3,a{margin: 0px; font-size: 8px}
+    #myImg{width:50%;}
+    #media{font-size: 8px; margin-bottom: 500px;}
+    #huvud{width:100px; height:auto}
+    section{ width:300px; height:auto}
+    #menu li{margin-bottom:10px}
+   
+  }
+
+
+  @media screen and(max-width: 980px){
+    #skill li em{font-size: 18px;}
+    h1{font-size: 2.4em; color: rgb(143, 133, 79)}
+    #myName {font-size: 2.6em;; color: hsla(0, 0%, 0%, 0.683)}
+    h2 {font-size:1.5em; margin-left: 5px; color:#ffffff}
+    h3 {font-size: 1.1em; margin-left: 5px; color:#ffffff}
+    .col {width: 90%;font-size: 12px; }
+    #GXwork{width:4%}
+    #menu a{font-size:18px}
+    #Info h3 {margin: 0px;}
+    .section-main{font-size: 10px;}
+    #myImg{width:52%;}
+  }
+
+  @media screen and(max-width: 767px){
+    #skill li em{font-size: 18px;}
+    h1{font-size: 2.2em; color:rgb(143, 133, 79)}
+    #myName {font-size: 2.6em;;
+      color: hsla(0, 0%, 0%, 0.683)}
+    h2 {font-size:1.2em; margin-left: 5px; color:#ffffff}
+    h3 {font-size:  0.9em; margin-left: 5px; color:#ffffff}
+    .col {width: 90%; font-size: 10px;}
+    #GXwork{width:4%}
+    #menu a{font-size:16px}
+    #Info h3 {margin: 0px;}
+    #myImg{width:40%;}
+    #media{font-size: 8px; margin-bottom: 500px;}
+    #huvud{width:100px; height:auto}
+    section{ width:300px; height:auto}
+
+  }
+
+  @media screen and(max-width: 580px){
+    #skill li em{font-size: 16px;}
+    h1{font-size: 18px; padding:10px 0; color: rgb(143, 133, 79)}
+    #info h1 {font-size: 20px;;
+      color: hsla(0, 0%, 0%, 0.683)}
+    h2 {font-size:16px; padding:0px 0; margin-left: 5px; color:#ffffff}
+    h3 {font-size:  14px; padding:0px 0;margin-left: 5px; color:#ffffff}
+    .col {width: 90%; font-size: 8px;}
+    #GXwork{width:6%}
+    #menu a{font-size:14px}
+    #Info h3 {margin: 0px;}
+    #myImg{width:30%;}
+  }
+
+  @media screen and (max-width: 480px){
+    #skill li em{font-size: 14px;}
+    h1 {font-size: 20px; padding:5px 1; color: rgb(143, 133, 79)}
+    #myName {font-size: 18px;
+              color: hsla(0, 7%, 5%, 0.9)}
+    #number,#email{padding:5px 1; font-size: 10px;}
+    h2 {font-size:12px; margin-bottom: 20px; margin-left: 5px; padding:5px 1; color:#ffffff}
+    h3 {font-size:8px; margin-bottom: 20px; margin-left: 5px; padding:5px 1; color:#ffffff}
+    .col {width: 90%; font-size: 6px; }
+    #GXwork{width:5%}
+    #media{font-size: 8px; margin-bottom: 500px;}
+    #menu{height:100% }
+    #menu li{margin-bottom:10px}
+    #menu a{font-size:10px ;}
+    .form-group{ size: 20;}
+    #Info h3 {margin: 0px;}
+    #Logo1{width: 90%;}
+    #motionName{font-size: 22px; margin-top: 60px;}
+    #container {height: 100%;}
+    #text1{margin-top: 5%;  font-size: 18px;}
+    #text2{margin-top: 0%;  font-size: 18px;}
+    #myImg{width:90%;}
+    #huvud{width:100px; height:auto}
+    section{ width:300px; height:auto}
+
+ 
+  }
+
+  @media screen and (max-width: 300px){ 
+    #skill li em{font-size: 14px;}
+    h1 {font-size: 12px; color: rgb(143, 133, 79)}
+    #myName {font-size: 16px;
+              color: hsla(0, 7%, 5%, 0.9)}
+    h2 {font-size:10px; padding:5px 1; color:#ffffff}
+    h3 {font-size:8px;  padding:5px 1; color:#ffffff}
+    .col {width: 90%; font-size: 4px }
+    #GXwork{width:9%}
+    #media a {font-size: 16px;}
+    #menu a{font-size:10px ;}
+    
+  }
+
+  @media screen and (min-width: 1501px){ 
+    #myName {
+      font-size: 60px;
+      color: hsla rgb(143, 133, 79);}
+    h1 {
+      font-size: 35px;
+      padding: 0px;
+      color: rgb(143, 133, 79);
+      background-color: transparent;
+      text-align: center auto;
+      text-transform: uppercase;
+      width:auto;
+      padding: 15px;
+    }
+    h2 {
+      font-size: 30px;
+      padding: 15px;
+      margin-left: 20px;
+      color:#ffffff;
+    }
+    #Info h2 {
+      font-size: 28px;
+      padding: 0px;
+      
+      color:white;
+    }
+    h3 {
+      color:#ffffff;
+      font-size: 20px;
+      padding: 15px;
+      margin-left: 25px;
+      font-weight: 500;
+      line-height: 2.0;
+      letter-spacing: 0.9px;
+      margin:20px;
+    }
+    #Info h3 {
+      color:#ffffff;
+      font-size: 15px;
+      padding: 0px;
+      margin-left: 0px;
+      font-weight: 500;
+      line-height: 2.0;
+      letter-spacing: 0.9px;
+      margin:0px;
+    }
+    .skill li em { font-size: 20px;}
+  
+    #GXwork{width:5%}
+    #menu a{font-size:24px ;}
+    .section-main{font-size: 30px;}
+    .form-group{ size: 50}
+
+
+    #container {height: 50%;}
+    #text1{margin-top: 3%;  font-size: 30px;}
+    #text2{margin-top: 0%;  font-size: 30px;}
+
+    input{width: 300px;}
+    textarea {margin-top: 1%;width: 300px;height: 400px;}
+    #Kompetens p {margin-top:10%;}
+  }
+
+  @media screen and (min-width:2500px){ 
+    h1 {font-size: 40px; color:rgb(143, 133, 79)}
+    #myName {font-size: 45px;
+              color: hsla(0, 0%, 0%, 0.9)}
+    h2 {font-size:30px; padding:5px 1; color:#ffffff}
+    h3 {font-size:20px;  padding:5px 1; color:#ffffff}
+    .col {font-size:18px; }
+    #GXwork{width:3%}
+    .skill li em { font-size: 22px;}
+    #menu a{font-size:26px;}
+    .section-main{font-size: 30px;}
+    #Info h3 {
+      color:#ffffff;
+      font-size: 15px;
+      padding: 0px;
+      margin-left: 0px;
+      font-weight: 500;
+      line-height: 2.0;
+      letter-spacing: 0.9px;
+      margin:0px;
+  }
+  #myImg{
+    width:50%;
+}
+#Logo{width:90%}
+
+    #container {height: 40%;}
+    #text1{margin-top: 3%;  font-size: 30px;}
+    #text2{margin-top: 0%;  font-size: 30px;}
+
+    input{width: 300px;}
+    textarea {
+      margin-top: 1%;
+      width: 300px;
+      height: 400px;}
+      #Kompetens p {margin-top:5%;}
+}
+
+
+
+
+
+
