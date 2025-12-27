@@ -369,7 +369,8 @@ animate();
     const bottonD= document.getElementsByClassName("btn-circle-download")[0]
 
 
-    if(bottonD){bottonD.addEventListener("click",function(){window.open("https://github.com/Ammar-Abdulsamad/ammar-abdulsamad.github.io/raw/cc13a97732eaff0122c21d5e883fb02084b3d49c/Ammar-Abdulsamad-sv-2023-04-03.pdf")})}
+    if(bottonD){bottonD.addEventListener("click",function(){window.open("https://raw.githubusercontent.com/Ammar-Abdulsamad/ammar-abdulsamad.github.io/d6d0bb4279464749c049c3efbcc3130a1c47b7e0/CV_Ammar_Abdulsamad_English.pdf")})}
+
 
     //change language
     var currentlanguage = 'en'
